@@ -33,8 +33,8 @@
         /* Base */
         body { margin: 0 !important; padding: 0 !important; width: 100% !important; background-color: #f4f4f5; }
 
-        /* Links — EaseUI --green: #10B981 */
-        a { color: #10B981; text-decoration: none; font-weight: 600; }
+        /* Links — EaseUI --green: #49BA61 */
+        a { color: #49BA61; text-decoration: none; font-weight: 600; }
         a:hover { text-decoration: underline; }
 
         /* Responsive */
@@ -56,8 +56,8 @@
             .dm-heading { color: #fafafa !important; }
             .dm-body { color: #d4d4d8 !important; }
             .dm-label { color: #a1a1aa !important; }
-            .badge { background-color: rgba(16, 185, 129, 0.15) !important; color: #34d399 !important; }
-            .btn-cta { background-color: #059669 !important; box-shadow: 0 2px 4px -1px rgba(16,185,129,0.40), 0px 0px 0px 1px rgba(16,185,129,0.30) !important; }
+            .badge { background-color: rgba(73, 186, 97, 0.15) !important; color: #6bd47e !important; }
+            .btn-cta { background: linear-gradient(180deg, #3a3a3a, #2a2a2a) !important; box-shadow: 0 1px 2px rgba(0,0,0,0.25), inset 0 1px 0 rgba(255,255,255,0.08) !important; }
             .divider { border-color: #27272a !important; }
             .footer-text { color: #52525b !important; }
         }
@@ -97,7 +97,7 @@
                     <!-- SHARED: Main Card -->
                     <tr>
                         <td>
-                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="email-card" style="background-color: #ffffff; border: 1px solid #e4e4e7; border-radius: 32px; overflow: hidden; box-shadow: 0px 6px 3px 0px rgba(0,0,0,0.01), 0px 3px 3px 0px rgba(0,0,0,0.02), 0px 1px 1px 0px rgba(0,0,0,0.02);">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="email-card" style="background-color: #ffffff; border: 1px solid #e4e4e7; border-radius: 20px; overflow: hidden; box-shadow: 0px 6px 3px 0px rgba(0,0,0,0.01), 0px 3px 3px 0px rgba(0,0,0,0.02), 0px 1px 1px 0px rgba(0,0,0,0.02);">
                                 <tr>
                                     <td style="padding: 48px 40px 40px 40px;" class="fluid-padding">
 
@@ -129,13 +129,13 @@
                                             <tr>
                                                 <td align="center">
                                                     <!--[if mso]>
-                                                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="%recipient.verify_url%" style="height:52px;v-text-anchor:middle;width:280px;" arcsize="50%" fillcolor="#10B981" strokecolor="#10B981" strokeweight="0px">
+                                                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="%recipient.verify_url%" style="height:52px;v-text-anchor:middle;width:280px;" arcsize="50%" fillcolor="#49BA61" strokecolor="#49BA61" strokeweight="0px">
                                                         <w:anchorlock/>
-                                                        <center style="color:#ffffff;font-family:'Inter',Helvetica,Arial,sans-serif;font-size:15px;font-weight:600;">Verify Email Address</center>
+                                                        <center style="color:#fcfcfc;font-family:'Inter',Helvetica,Arial,sans-serif;font-size:15px;font-weight:600;">Verify Email Address</center>
                                                     </v:roundrect>
                                                     <![endif]-->
                                                     <!--[if !mso]><!-->
-                                                    <a href="%recipient.verify_url%" class="btn-cta" style="display: inline-block; background-color: #10B981; color: #ffffff; font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; text-decoration: none; padding: 14px 48px; border-radius: 100px; box-shadow: 0 2px 4px -1px rgba(16,185,129,0.25), 0px 0px 0px 1px rgba(16,185,129,0.18);">
+                                                    <a href="%recipient.verify_url%" class="btn-cta" style="display: inline-block; background: linear-gradient(180deg, #323232, #222222); color: #fcfcfc; font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; text-decoration: none; padding: 14px 48px; border-radius: 14px; box-shadow: 0 1px 2px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.08), inset 0 1px 0 rgba(255,255,255,0.06);">
                                                         Verify Email Address
                                                     </a>
                                                     <!--<![endif]-->
@@ -144,7 +144,7 @@
                                         </table>
 
                                         <!-- Expiry Note -->
-                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="inner-card" style="background-color: #fafafa; border: 1px solid #e4e4e7; border-radius: 16px;">
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="inner-card" style="background-color: #fafafa; border: 1px solid #e4e4e7; border-radius: 12px;">
                                             <tr>
                                                 <td style="padding: 20px 24px;">
                                                     <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">

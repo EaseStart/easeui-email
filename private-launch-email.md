@@ -1,7 +1,7 @@
 # EaseUI Private Launch Email — Wishlist Members
 
 > **Date:** 28 Mar 2026
-> **Audience:** Wishlist members (206+ signups, 11+ countries)
+> **Audience:** Wishlist members (400+ signups, 11+ countries)
 > **Access period:** Mar 28 – Apr 11, 2026 (2 weeks)
 
 ---
@@ -45,7 +45,7 @@ This private launch runs from **March 28 to April 11, 2026**. After that, we go 
 
 **Why you're getting this first.**
 
-206 people from 11+ countries joined the waitlist — with zero paid marketing. You saw the vision early. That means something.
+400+ people from 11+ countries joined the waitlist — with zero paid marketing. You saw the vision early. That means something.
 
 During these 2 weeks, I want to hear from you:
 - What works?
